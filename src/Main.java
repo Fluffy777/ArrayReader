@@ -13,7 +13,10 @@ public class Main {
         String temp;
         boolean flag = true;
 
+        System.out.println("Меню:");
+
         while (flag) {
+            Console.println("\nРежим", "unique | even | elements | quit");
             temp = scanner.nextLine();
 
             switch(temp) {
